@@ -1,0 +1,107 @@
+:root{
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuentePrincipal: 'Arial', sans-serif;
+
+    --amarillo: #FDFDBD;
+    --verde: #C8FFD4;
+    --azul: #B8E8FC;
+    --violeta: #B1AFFF;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    font-size: 16px;
+    line-height: 2;
+}
+
+h1, h2, h3{
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+img{
+    width: 100%;
+}
+
+/* Globales */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    background-color: aliceblue;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo img{
+   width: 5rem;
+}
+
+.navegacion{
+    display: flex;
+    gap: 3rem;
+}
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
+.navegacion a:hover{
+    color: blue;
+    background-color: rgb(181, 187, 192);
+}
+
+.jumbotron{
+    padding: 3rem;
+    text-align: center;
+    color: black;
+    background-image: url("../img/jumbotron_edited.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron p{
+    background-color: rgba(0, 128, 0, 0.747);
+    padding: 0.25rem;
+}
+
+.video{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.video video{
+    width: 50rem;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.2rem;
+}
